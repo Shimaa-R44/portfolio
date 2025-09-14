@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kenzy Portfolio</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <div class="nav-container">
+                <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                    <span>Kenzy</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#home" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-delay="100">Home</a>
+                    <a href="#about" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-delay="200">About</a>
+                    <a href="#skills" data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-delay="300">Skills</a>
+                    <a href="#services" data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-delay="400">Services</a>
+                    <a href="#work" data-aos="fade-up" data-aos-duration="1000"
+                        data-aos-delay="450">Work</a>
+                    <div class="contact-btn" data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-delay="600">
+                        <a href="#contact">Contact Us</a>
+                    </div>
+                </div>
+                <i class="fa-solid fa-bars hamburg" id="hamburger"></i>
+            </div>
+            <div class="dropdown" id="dropdown">
+                <i class="fa-solid fa-xmark cancel" id="cancel"></i>
+                <div class="dropdown-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#services">Services</a>
+                    <a href="#work">Work</a>
+                    <a href="#contact">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+
+        <section id="home">
+            <div class="container">
+                <div class="main-container">
+                    <div class="image" data-aos="zoom-in-right"
+                        data-aos-duration="2500">
+                        <img src="main.png" alt="Kenzy Profile">
+                    </div>
+                    <div class="content">
+                        <h1 data-aos="fade-left" data-aos-duration="1000"
+                            data-aos-delay="800">Hey I'm
+                            <span>Kenzy</span></h1>
+                        <div class="typewriter" data-aos="fade-right"
+                            data-aos-duration="1000" data-aos-delay="900">I'm a
+                            <span>Web Developer</span></div>
+                        <p data-aos="flip-up" data-aos-duration="1000"
+                            data-aos-delay="1000">
+                            Web developer specialized in designing and developing modern, interactive websites. I use the latest technologies to build innovative digital solutions that meet client needs and deliver the best user experience.
+                        </p>
+                        <div class="social-links" data-aos="flip-down"
+                            data-aos-duration="1000" data-aos-delay="1200">
+                            <a href="#"><i class="fa-brands fa-github"></i></a>
+                            <a href="#"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i
+                                    class="fa-brands fa-x-twitter"></i></a>
+                        </div>
+                        <div class="btn" data-aos="zoom-out-left"
+                            data-aos-duration="1000" data-aos-delay="1300">
+                            <!-- زر Download CV -->
+                            <a href="cv.pdf" download class="btn">
+                                Download CV
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text" data-aos="fade-left">
+                        <h3>Web Developer & UI/UX Designer</h3>
+                        <p>
+                            I am Kenzy, a developer and UI/UX designer with over 5 years of experience in web development. I specialize in creating interactive and responsive websites and web applications.
+                        </p>
+                        <p>
+                            I love turning creative ideas into reality through code. My goal is to create beautiful and easy-to-use digital experiences that meet users' needs and exceed their expectations.
+                        </p>
+                        <p>
+                            When I'm not at the computer, you can find me reading about the latest technology trends, learning new skills, or traveling to discover new places.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2 class="section-title">My Expertise</h2>
+                <div class="skills-exp">
+                    <div class="tabs-container">
+                        <div class="tabs-header">
+                            <button class="tab-btn active"
+                                data-tab="skills">Skills</button>
+                            <button class="tab-btn"
+                                data-tab="experience">Experience</button>
+                            <button class="tab-btn"
+                                data-tab="education">Education</button>
+                        </div>
+                        <div class="tab-content active" id="skills-tab">
+                            <div class="skills-grid">
+                                <div class="skill-item" data-aos="fade-up">
+                                    <div class="skill-icon"><i
+                                            class="fab fa-html5"></i></div>
+                                    <span class="skill-name">HTML</span>
+                                </div>
+                                <div class="skill-item" data-aos="fade-up"
+                                    data-aos-delay="100">
+                                    <div class="skill-icon"><i
+                                            class="fab fa-css3-alt"></i></div>
+                                    <span class="skill-name">CSS</span>
+                                </div>
+                                <div class="skill-item" data-aos="fade-up"
+                                    data-aos-delay="200">
+                                    <div class="skill-icon"><i
+                                            class="fab fa-sass"></i></div>
+                                    <span class="skill-name">SASS</span>
+                                </div>
+                                <div class="skill-item" data-aos="fade-up"
+                                    data-aos-delay="300">
+                                    <div class="skill-icon"><i
+                                            class="fab fa-js"></i></div>
+                                    <span class="skill-name">JavaScript</span>
+                                </div>
+                                <div class="skill-item" data-aos="fade-up"
+                                    data-aos-delay="400">
+                                    <div class="skill-icon"><i
+                                            class="fab fa-react"></i></div>
+                                    <span class="skill-name">React</span>
+                                </div>
+                                <div class="skill-item" data-aos="fade-up"
+                                    data-aos-delay="500">
+                                    <div class="skill-icon"><i
+                                            class="fab fa-github"></i></div>
+                                    <span class="skill-name">GitHub</span>
+                                </div>
+                                <div class="skill-item" data-aos="fade-up"
+                                    data-aos-delay="600">
+                                    <div class="skill-icon"><i
+                                            class="fab fa-node"></i></div>
+                                    <span class="skill-name">Node.js</span>
+                                </div>
+                                <div class="skill-item" data-aos="fade-up"
+                                    data-aos-delay="700">
+                                    <div class="skill-icon"><i
+                                            class="fas fa-database"></i></div>
+                                    <span class="skill-name">MongoDB</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content" id="experience-tab">
+                            <div class="exp-item" data-aos="fade-right">
+                                <div class="exp-date">2016 - Present</div>
+                                <h4 class="exp-role">Full-Stack Developer</h4>
+                                <p class="exp-desc">Experienced in developing web applications using MERN/PERN Stack, designing efficient backend solutions and advanced user experiences.</p>
+                            </div>
+                            <div class="exp-item" data-aos="fade-right"
+                                data-aos-delay="200">
+                                <div class="exp-date">2021 - 2022</div>
+                                <h4 class="exp-role">Freelance Developer</h4>
+                                <p class="exp-desc">Worked on various freelance projects focusing on UI design and custom website development for clients.</p>
+                            </div>
+                            <div class="exp-item" data-aos="fade-right"
+                                data-aos-delay="400">
+                                <div class="exp-date">2019 - 2021</div>
+                                <h4 class="exp-role">UI/UX Designer</h4>
+                                <p class="exp-desc">Designed user interfaces and experiences for clients from different sectors, focusing on improving interaction and satisfaction.</p>
+                            </div>
+                        </div>
+                        <div class="tab-content" id="education-tab">
+                            <div class="exp-item" data-aos="fade-right">
+                                <div class="exp-date">2022 - Present</div>
+                                <h4 class="exp-role">Bachelor of Computer Science</h4>
+                                <p class="exp-desc">Expected graduation: 2026.  
+                                Major: Computer Science  
+                                University: Faculty of Computers and Information  
+                                Relevant Courses: Data Structures, Algorithms, Web Development, Database Systems, Artificial Intelligence, Software Engineering.  
+                                Activities: Member of Coding Club, participated in hackathons and tech workshops.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <h2 class="section-title">My Services</h2>
+                <div class="services-grid">
+                    <div class="service-item" data-aos="fade-up">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Building modern, responsive websites using the latest technologies and frameworks for high performance and excellent user experience.</p>
+                    </div>
+                    <div class="service-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3>UI/UX Design</h3>
+                        <p>Designing attractive and user-friendly interfaces with a focus on user experience to ensure client satisfaction and achieve goals.</p>
+                    </div>
+                    <div class="service-item" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>App Development</h3>
+                        <p>Designing and developing innovative mobile applications for both iOS and Android platforms using the latest technologies.</p>
+                    </div>
+                    <div class="service-item" data-aos="fade-up" data-aos-delay="600">
+                        <div class="service-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>Cloud Solutions</h3>
+                        <p>Deploying and managing scalable cloud solutions, including hosting, databases, and serverless architectures for modern web apps.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work">
+            <div class="container">
+                <h2 class="section-title">My Work</h2>
+                <div class="work-grid">
+                    <div class="work-item" data-aos="flip-left">
+                        <div class="work-img"
+                            style="background: linear-gradient(45deg, #d6cebd, #e8e1d2);">
+                            <i class="fas fa-laptop-code"
+                                style="font-size: 3rem; color: #8b6b4c;"></i>
+                        </div>
+                        <div class="work-overlay">
+                            <h3>E-Commerce Website</h3>
+                            <p>Complete e-commerce solution using React and Node.js</p>
+                        </div>
+                    </div>
+                    <div class="work-item" data-aos="flip-left"
+                        data-aos-delay="200">
+                        <div class="work-img"
+                            style="background: linear-gradient(45deg, #e8e1d2, #f5f2eb);">
+                            <i class="fas fa-mobile-alt"
+                                style="font-size: 3rem; color: #8b6b4c;"></i>
+                        </div>
+                        <div class="work-overlay">
+                            <h3>Mobile App UI</h3>
+                            <p>Fitness tracking app interface design</p>
+                        </div>
+                    </div>
+                    <div class="work-item" data-aos="flip-left"
+                        data-aos-delay="400">
+                        <div class="work-img"
+                            style="background: linear-gradient(45deg, #f5f2eb, #d6cebd);">
+                            <i class="fas fa-chart-line"
+                                style="font-size: 3rem; color: #8b6b4c;"></i>
+                        </div>
+                        <div class="work-overlay">
+                            <h3>Analytics Dashboard</h3>
+                            <p>Dashboard for displaying and interactively analyzing data</p>
+                        </div>
+                    </div>
+                    <div class="work-item" data-aos="flip-left" data-aos-delay="600">
+                        <div class="work-img" style="background: linear-gradient(45deg, #c19a6b, #e8e1d2);">
+                            <i class="fas fa-robot" style="font-size: 3rem; color: #8b6b4c;"></i>
+                        </div>
+                        <div class="work-overlay">
+                            <h3>AI Chatbot Platform</h3>
+                            <p>Developed a smart chatbot platform using Node.js and AI APIs for customer support automation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="info-item" data-aos="fade-right">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>kenzykhaled660@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item" data-aos="fade-right"
+                            data-aos-delay="100">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+20 123 456 7890</p>
+                            </div>
+                        </div>
+                        <div class="info-item" data-aos="fade-right"
+                            data-aos-delay="200">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Egypt, cairo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form" data-aos="fade-left"
+                        data-aos-delay="300">
+                        <form>
+                            <div class="form-group">
+                                <input type="text" name="name"
+                                    placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email"
+                                    placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message"
+                                    placeholder="Your Message"
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <p>&copy; 2025 kenzy. All Rights Reserved.</p>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script src="script.js"></script>
+        <script>
+            emailjs.init("c0sm1cq3D8JzJ3STX"); // ضع الـ User ID الخاص بك من EmailJS
+
+            document.querySelector('.contact-form form').addEventListener('submit', function(e) {
+                e.preventDefault();
+                emailjs.sendForm('service_q0hnx2h', 'template_n1nq2jh', this)
+                    .then(function() {
+                        alert('Message sent successfully!');
+                    }, function(error) {
+                        alert('Failed to send message.');
+                    });
+            });
+        </script>
+    </body>
+</html>
